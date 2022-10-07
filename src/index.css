@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: hsl(0, 0%, 100%);
+    font-size: 1rem;
+    margin: 0;
+}
+
+.app {
+    background: linear-gradient(to bottom, hsl(232, 19%, 15%) 30%, hsl(230, 17%, 14%) -0%);
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.bg-light {
+    background: linear-gradient(to bottom, hsl(225, 100%, 98%) 30%, hsl(0, 0%, 100%) -0%);
+}
+
+#container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    margin-bottom: 2em;
+}
+
+.overview, 
+.dashboard,
+.box-one {
+    display: flex;
+    justify-content: space-between;
+}
+
+.overview {
+    flex-wrap: wrap;
+}
+
+.card, 
+.mini-card {
+    width: 23%;
+    background-color: hsl(228, 28%, 20%);
+    padding: .5em 1em;
+    margin-bottom: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cardBox {
+    display: flex;
+}
+
+.card {
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+
+.card:first-child {
+    border-top: 5px solid hsl(208, 92%, 53%) ;
+}
+
+.card:nth-child(2) {
+    border-top: 5px solid hsl(203, 89%, 53%) ;
+}
+
+.card:nth-child(3) {
+    border-top: 5px solid hsl(329, 70%, 58%);
+}
+
+.card:last-child {
+    border-top: 5px solid hsl(348, 97%, 39%);
+}
+
+.cardBox {
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.box-one, 
+.cardBox {  
+    align-items: center;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h2, h4 {
+    margin: 0;
+}
+
+h1, .mode {
+    margin-bottom: 0;
+}
+
+h4 {
+    font-size: 1.8rem;
+}
+
+.userName, .views, 
+.total-figure {
+    color: hsl(228, 34%, 66%);
+    font-weight: 700;
+}
+
+.total-figure {
+    margin-top: 0;
+}
+
+.userName, .views,
+.total-figure,
+.presentstat {
+    font-size: .7rem;
+}
+
+.mode {
+    font-size: .8rem;
+}
+
+.mode, .switch-text,
+.presentstat {
+    font-weight: 700;
+}
+
+.userName {
+    margin-left: .5em;
+}
+
+.followers {
+    color: hsl(228, 34%, 66%);
+    text-transform: uppercase;
+    margin-top: 0;
+    font-size: .8rem;
+    letter-spacing: 5px;
+}
+
+.toggle-slider {
+    width: 60px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: hsl(203, 89%, 53%);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+
+.switch-text {
+    margin-right: 1em;
+    color: hsl(228, 34%, 66%);
+}
+
+.toggle-inner {
+    height: 30px;
+    width: 30px;
+    background-color: hsl(228, 28%, 20%);
+    border-radius: 50%;   
+}
+
+.toggleBox {
+    display: flex;
+    align-items: center;
+}
+
+.toggle-slider.light {
+    background-color: hsl(230, 22%, 74%);
+    justify-content: flex-end;
+}
+
+.toggle-slider.light:hover {
+    background-color: hsl(203, 89%, 53%);
+}
+
+.toggle-inner.light {
+    background-color: hsl(225, 100%, 98%);
+}
+
+.card.light,
+.mini-card.light {
+    background-color: hsl(227, 47%, 96%);
+    color: hsl(230, 17%, 14%);
+}
+
+@media (max-width: 600px) {
+    .overview,
+    .dashboard,
+    .top-title {
+        flex-direction: column;
+    }
+
+    #container {
+        width: 90%;
+    }
+
+    .card, 
+    .mini-card,
+    .titleText {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .toggleBox {
+        display: flex;
+        justify-content: space-between;
+        align-self: flex-start;
+        width: 100%;
+    }
+}
+
+@media (min-width: 760px) and (max-width: 920px) {
+    #container {
+        width: 90%;
+    }
+
+    .followers {
+        letter-spacing: 3px;
+    }
+}
