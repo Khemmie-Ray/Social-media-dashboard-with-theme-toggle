@@ -37,7 +37,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/Khemmie-Ray/Social-media-dashboard-with-theme-toggle.git](https://github.com/Khemmie-Ray/Social-media-dashboard-with-theme-toggle.git)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://social-media-dashboard-theme-mode.netlify.app/](https://social-media-dashboard-theme-mode.netlify.app/)
 
 ## My process
 
