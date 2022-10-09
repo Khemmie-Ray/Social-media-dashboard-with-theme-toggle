@@ -12,7 +12,6 @@ This is a solution to the [Social media dashboard with theme switcher challenge 
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
@@ -63,17 +62,15 @@ const {arrow, rate, title, social, figure, lightMode} = props
                 <p className="views">{title}</p>
                 <img src={social} alt="" />
             </div>...
-            ```
+```
 
 ### Continued development
 
 I intend to build more react projects further exploring react concepts such as hooks, router, useEffect etc.
 
-
 ## Author
 
 - Frontend Mentor - [@Khemmie-Ray](https://www.frontendmentor.io/profile/Khemmie-Ray)
-
 
 ## Acknowledgments
 
